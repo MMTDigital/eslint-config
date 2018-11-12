@@ -1,0 +1,42 @@
+{
+  "name": "@mmtdigital/eslint-config",
+  "version": "0.1.0",
+  "description": "MMT Digital's base ESLint config",
+  "keywords": [
+    "mmt",
+    "digital",
+    "eslint"
+  ],
+  "author": "MMT Digital",
+  "license": "ISC",
+  "homepage": "https://github.com/mmtdigital/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MMTDigital/eslint-config-mmtdigital.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmtdigital/eslint-config/issues"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "5.0.0-alpha.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0-alpha.2",
+    "eslint-plugin-import": ">=2.8.0",
+    "eslint-plugin-node": ">=5.2.1",
+    "eslint-plugin-promise": ">=3.6.0",
+    "eslint-plugin-standard": ">=3.0.1",
+    "babel-eslint": "^9.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^9.0.0"
+  }
+}
