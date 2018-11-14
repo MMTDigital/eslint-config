@@ -1,6 +1,16 @@
 module.exports = {
   "parser": "babel-eslint",
 
+  "extends": [
+    "plugin:react/recommended"
+  ],
+
+  "settings": {
+    "react": {
+      version: "16",
+    }
+  },
+
   "parserOptions": {
     "ecmaVersion": 9,
     "ecmaFeatures": {
@@ -21,7 +31,8 @@ module.exports = {
     "import",
     "node",
     "promise",
-    "standard"
+    "standard",
+    "react"
   ],
 
   "globals": {
@@ -52,7 +63,7 @@ module.exports = {
     "eqeqeq": ["error", "always", { "null": "ignore" }],
     "func-call-spacing": ["error", "never"],
     "generator-star-spacing": ["error", { "before": true, "after": true }],
-    "handle-callback-err": ["error", "^(err|error)$" ],
+    "handle-callback-err": ["error", "^(err|error)$"],
     "indent": ["error", 2, {
       "SwitchCase": 1,
       "VariableDeclarator": 1,
@@ -204,6 +215,9 @@ module.exports = {
     "standard/array-bracket-even-spacing": ["error", "either"],
     "standard/computed-property-even-spacing": ["error", "even"],
     "standard/no-callback-literal": "error",
-    "standard/object-curly-even-spacing": ["error", "either"]
+    "standard/object-curly-even-spacing": ["error", "either"],
+
+    "react/prop-types": ["warn"],
+    "react/no-children-prop": ["warn"]
   }
 }
