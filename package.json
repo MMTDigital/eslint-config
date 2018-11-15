@@ -24,6 +24,7 @@
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-react": "^7.11.1",
     "npmpub": "^4.1.0"
   },
   "peerDependencies": {
@@ -32,6 +33,7 @@
     "eslint-plugin-node": ">=6.0.0",
     "eslint-plugin-promise": ">=3.6.0",
     "eslint-plugin-standard": ">=3.0.1",
+    "eslint-plugin-react": "^7.11.1",
     "babel-eslint": "^10.0.1"
   },
   "scripts": {
