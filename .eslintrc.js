@@ -24,7 +24,8 @@ module.exports = {
 
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
 
   "plugins": [
@@ -32,7 +33,8 @@ module.exports = {
     "node",
     "promise",
     "standard",
-    "react"
+    "react",
+    "jest"
   ],
 
   "globals": {
